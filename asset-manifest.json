@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.aec8e031.css",
+    "main.js": "/portfolio/static/js/main.830cfbe3.js",
+    "static/media/logoTomato2.png": "/portfolio/static/media/logoTomato2.87c84a24f79531681564.png",
+    "static/media/background.jpg": "/portfolio/static/media/background.78ca546ddfeff1b3a41a.jpg",
+    "static/media/woman.png": "/portfolio/static/media/woman.70d71a1793625a30f5ef.png",
+    "static/media/man.png": "/portfolio/static/media/man.7dc72b754ef86c1f538c.png",
+    "static/media/bannerImg.png": "/portfolio/static/media/bannerImg.caa3d5e2872e84d77cf2.png",
+    "static/media/codigo8.jpg": "/portfolio/static/media/codigo8.679e2a42579822bf964a.jpg",
+    "static/media/blog-madera-cuadrados.jpg": "/portfolio/static/media/blog-madera-cuadrados.02a4af724a2053aa7510.jpg",
+    "static/media/lady-justice.jpg": "/portfolio/static/media/lady-justice.c72f26835d5f44756ff5.jpg",
+    "static/media/contactImg.png": "/portfolio/static/media/contactImg.8ddfbfd11798f881db54.png",
+    "static/media/hotel.jpg": "/portfolio/static/media/hotel.ec27834fc285cf96089e.jpg",
+    "static/media/gavel.jpg": "/portfolio/static/media/gavel.c4c0231050b21eb7cea4.jpg",
+    "static/media/testimonialOne.png": "/portfolio/static/media/testimonialOne.c4706b2d1cadcb9f4daf.png",
+    "static/media/testimonialTwo.png": "/portfolio/static/media/testimonialTwo.c6df2773c486964035d9.png",
+    "static/media/my_logo5.jpg": "/portfolio/static/media/my_logo5.11c049031c6c9aa725db.jpg",
+    "static/media/slick.svg": "/portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/portfolio/index.html",
+    "main.aec8e031.css.map": "/portfolio/static/css/main.aec8e031.css.map",
+    "main.830cfbe3.js.map": "/portfolio/static/js/main.830cfbe3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aec8e031.css",
+    "static/js/main.830cfbe3.js"
+  ]
+}
