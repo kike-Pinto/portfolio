@@ -1,0 +1,14 @@
+.shadow-overlay {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 0;
+  height: 40px; /* Altura de la sombra superpuesta */
+  background: linear-gradient(
+    to bottom,
+    #212428,
+    transparent
+  ); /* Sombra superpuesta */
+  border-radius: 10px 10px 0 0; /* Coincide con el border-radius de la imagen */
+  pointer-events: none; /* Asegura que la sombra no bloquee interacciones */
+}
