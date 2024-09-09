@@ -86,11 +86,11 @@ const LeftBanner = () => {
           <div className='flex gap-4'>
             <span className='bannerIcon tooltip'>
               <FaReact />
-              <span className='tooltipText'>React</span>
+              <span className='tooltipText'>ReactJs</span>
             </span>
             <span className='bannerIcon tooltip'>
               <SiNextdotjs />
-              <span className='tooltipText'>Next</span>
+              <span className='tooltipText'>NextJs</span>
             </span>
             <span className='bannerIcon tooltip'>
               <SiTailwindcss />
