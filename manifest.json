@@ -3,7 +3,7 @@
   "name": "Portfolio",
   "icons": [
     {
-      "src": "%PUBLIC_URL%/P_colores2.png",
+      "src": "P_coloress.png",
       "sizes": "192x192",
       "type": "image/png"
     },
