@@ -57,7 +57,7 @@ const LeftBanner = () => {
             </a>
 
             <a
-              href='www.linkedin.com/in/cristian-pinto-9719a7168'
+              href='https://www.linkedin.com/in/cristian-pinto-9719a7168'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -68,7 +68,7 @@ const LeftBanner = () => {
             </a>
 
             <a
-              href='www.linkedin.com/in/cristian-pinto-9719a7168'
+              href='https://www.linkedin.com/in/cristian-pinto-9719a7168'
               target='_blank'
               rel='noopener noreferrer'
             >
