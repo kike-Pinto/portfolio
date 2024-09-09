@@ -43,7 +43,7 @@ const Footer = () => {
           >
             <span className='bannerIcon tooltip'>
               <FaLinkedinIn />
-              <span className='tooltipText'>Linkedin</span>
+              <span className='tooltipText'>LinkedIn</span>
             </span>
           </a>
         </div>
