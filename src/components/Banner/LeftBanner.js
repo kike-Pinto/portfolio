@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
-import { FaFacebookF, FaLinkedinIn, FaReact, FaInstagram } from 'react-icons/fa'
+import { FaFacebookF, FaLinkedinIn, FaReact, FaGithub } from 'react-icons/fa'
 import { SiTailwindcss, SiNextdotjs } from 'react-icons/si'
 import { IoLogoJavascript } from 'react-icons/io'
 
@@ -57,13 +57,13 @@ const LeftBanner = () => {
             </a>
 
             <a
-              href='https://www.linkedin.com/in/cristian-pinto-9719a7168'
+              href='https://github.com/kike-Pinto'
               target='_blank'
               rel='noopener noreferrer'
             >
               <span className='bannerIcon tooltip'>
-                <FaInstagram />
-                <span className='tooltipText'>Instagram</span>
+                <FaGithub />
+                <span className='tooltipText'>Github</span>
               </span>
             </a>
 

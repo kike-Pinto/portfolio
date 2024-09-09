@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-scroll'
 import { FiMenu } from 'react-icons/fi'
 import { MdClose } from 'react-icons/md'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from 'react-icons/fa'
+import { FaFacebookF, FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import logo from '../../assets/images/my_logo5.jpg'
 import './Navbar.css'
 import { navLinksdata } from '../../constants'
@@ -11,15 +11,14 @@ const Navbar = () => {
   const [showMenu, setMenuShow] = useState(false)
 
   return (
-    <div className='w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600'>
+    <nav className='w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600'>
       <div>
-        <a href='/'>
-          <img
-            src={logo}
-            alt='logo'
-            className='object-cover object-top shadow-shadowOne w-48 h-auto hover:translate-y-1 hover:translate-x-1.5 hover:contrast-200 p-2 rounded-[14px] cursor-pointer'
-          />
-        </a>
+        <img
+          src={logo}
+          alt='logo'
+          className='object-cover object-top shadow-shadowOne w-48 h-auto hover:translate-y-1 hover:translate-x-1.5 hover:contrast-200 p-2 rounded-[14px] cursor-pointer'
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        />
         <div className='shadow-overlay'></div>
       </div>
       <div>
@@ -56,11 +55,15 @@ const Navbar = () => {
                   className='object-cover object-top  w-32 h-auto hover:translate-y-1 hover:translate-x-1.5 hover:contrast-200 p-2 rounded-[14px] cursor-pointer'
                   src={logo}
                   alt='logo'
+                  onClick={() =>
+                    window.scrollTo({ top: 0, behavior: 'smooth' })
+                  }
                 />
                 <p className='text-sm text-gray-400 mt-4'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-                  suscipit harum debitis sequi. Reiciendis labore dolorem quasi
-                  nihil fugiat ullam.
+                  Web Developer & Software Engineer with several years of
+                  experience, specialized in creating innovative and efficient
+                  solutions in web development, combining advanced technical
+                  skills with a passion for continuous improvement.
                 </p>
               </div>
               <ul className='flex flex-col gap-4'>
@@ -88,15 +91,38 @@ const Navbar = () => {
                   Find me in
                 </h2>
                 <div className='flex gap-4'>
-                  <span className='bannerIcon'>
-                    <FaFacebookF />
-                  </span>
-                  <span className='bannerIcon'>
-                    <FaTwitter />
-                  </span>
-                  <span className='bannerIcon'>
-                    <FaLinkedinIn />
-                  </span>
+                  <a
+                    href='https://www.facebook.com/cristian.pintoortiz.1'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <span className='bannerIcon tooltip'>
+                      <FaFacebookF />
+                      <span className='tooltipText'>Facebook</span>
+                    </span>
+                  </a>
+
+                  <a
+                    href='https://github.com/kike-Pinto'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <span className='bannerIcon tooltip'>
+                      <FaGithub />
+                      <span className='tooltipText'>Github</span>
+                    </span>
+                  </a>
+
+                  <a
+                    href='https://www.linkedin.com/in/cristian-pinto-9719a7168'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <span className='bannerIcon tooltip'>
+                      <FaLinkedinIn />
+                      <span className='tooltipText'>LinkedIn</span>
+                    </span>
+                  </a>
                 </div>
               </div>
               <span
@@ -109,7 +135,7 @@ const Navbar = () => {
           </div>
         )}
       </div>
-    </div>
+    </nav>
   )
 }
 

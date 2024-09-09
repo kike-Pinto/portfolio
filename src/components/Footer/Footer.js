@@ -1,5 +1,10 @@
 import React from 'react'
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaGithub,
+} from 'react-icons/fa'
 import logo from '../../assets/images/my_logo5.jpg'
 
 const Footer = () => {
@@ -11,6 +16,7 @@ const Footer = () => {
             className='object-cover object-top shadow-shadowOne w-60 h-auto hover:translate-y-1 hover:translate-x-1.5 hover:contrast-200 p-2 rounded-[14px] cursor-pointer'
             src={logo}
             alt='logo'
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           />
         </a>
         <div className='flex gap-5'>
@@ -26,13 +32,13 @@ const Footer = () => {
           </a>
 
           <a
-            href='www.linkedin.com/in/cristian-pinto-9719a7168'
+            href='https://github.com/kike-Pinto'
             target='_blank'
             rel='noopener noreferrer'
           >
             <span className='bannerIcon tooltip'>
-              <FaInstagram />
-              <span className='tooltipText'>Instagram</span>
+              <FaGithub />
+              <span className='tooltipText'>Github</span>
             </span>
           </a>
 
