@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.aec8e031.css",
-    "main.js": "/portfolio/static/js/main.c05a3760.js",
+    "main.js": "/portfolio/static/js/main.a7b354d4.js",
     "static/media/logoTomato2.png": "/portfolio/static/media/logoTomato2.87c84a24f79531681564.png",
     "static/media/background.jpg": "/portfolio/static/media/background.78ca546ddfeff1b3a41a.jpg",
     "static/media/woman.png": "/portfolio/static/media/woman.70d71a1793625a30f5ef.png",
@@ -22,10 +22,10 @@
     "static/media/slick.woff": "/portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/portfolio/index.html",
     "main.aec8e031.css.map": "/portfolio/static/css/main.aec8e031.css.map",
-    "main.c05a3760.js.map": "/portfolio/static/js/main.c05a3760.js.map"
+    "main.a7b354d4.js.map": "/portfolio/static/js/main.a7b354d4.js.map"
   },
   "entrypoints": [
     "static/css/main.aec8e031.css",
-    "static/js/main.c05a3760.js"
+    "static/js/main.a7b354d4.js"
   ]
 }
