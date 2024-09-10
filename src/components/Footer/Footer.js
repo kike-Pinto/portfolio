@@ -6,14 +6,13 @@ const Footer = () => {
   return (
     <div className='w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8'>
       <div className='w-full h-full flex flex-col gap-8'>
-        <a href='/'>
-          <img
-            className='object-cover object-top shadow-shadowOne w-60 h-auto hover:translate-y-1 hover:translate-x-1.5 hover:contrast-200 p-2 rounded-[14px] cursor-pointer'
-            src={logo}
-            alt='logo'
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          />
-        </a>
+        <img
+          className='object-cover object-top shadow-shadowOne w-60 h-auto hover:translate-y-1 hover:translate-x-1.5 hover:contrast-200 p-2 rounded-[14px] cursor-pointer'
+          src={logo}
+          alt='logo'
+          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        />
+
         <div className='flex gap-5'>
           <a
             href='https://www.facebook.com/cristian.pintoortiz.1'
