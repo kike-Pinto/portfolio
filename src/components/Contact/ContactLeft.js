@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
+import { FaFacebookF, FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { contactImg } from '../../assets/index'
 
 const ContactLeft = () => {
@@ -17,16 +17,13 @@ const ContactLeft = () => {
         </p>
         <p className='text-base text-gray-400 tracking-wide'>
           You can connect me through the form on the side, I just need how to
-          locate yourself and explain your software and website needs.
+          locate yourself and analyse your requirements and website needs.
         </p>
         <p className='text-base text-gray-400 items-center gap-2'>
           Phone: <span className='text-ligthText'>+968 12345678</span>
         </p>
         <p className='text-base text-gray-400 items-center gap-2'>
-          Email:{' '}
-          <span className='text-ligthText'>
-            ejecutar.programacion@gmail.com
-          </span>
+          Email: <span className='text-ligthText'>cripintort@gmail.com</span>
         </p>
       </div>
       <div className='flex flex-col gap-4'>
@@ -46,17 +43,17 @@ const ContactLeft = () => {
           </a>
 
           <a
-            href='www.linkedin.com/in/cristian-pinto-9719a7168'
+            href='https://github.com/kike-Pinto'
             target='_blank'
             rel='noopener noreferrer'
           >
             <span className='bannerIcon tooltip'>
-              <FaInstagram />
-              <span className='tooltipText'>Instagram</span>
+              <FaGithub />
+              <span className='tooltipText'>Github</span>
             </span>
           </a>
           <a
-            href='www.linkedin.com/in/cristian-pinto-9719a7168'
+            href='https://www.linkedin.com/in/cristian-pinto-9719a7168'
             target='_blank'
             rel='noopener noreferrer'
           >

@@ -1,10 +1,5 @@
 import React from 'react'
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-  FaGithub,
-} from 'react-icons/fa'
+import { FaFacebookF, FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import logo from '../../assets/images/my_logo5.jpg'
 
 const Footer = () => {
@@ -43,7 +38,7 @@ const Footer = () => {
           </a>
 
           <a
-            href='www.linkedin.com/in/cristian-pinto-9719a7168'
+            href='https://www.linkedin.com/in/cristian-pinto-9719a7168'
             target='_blank'
             rel='noopener noreferrer'
           >
