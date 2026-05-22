@@ -12,6 +12,8 @@ import testimonialOne from './images/testmonial/testimonialOne.png'
 import testimonialTwo from './images/testmonial/testimonialTwo.png'
 import quote from './images/testmonial/quote.png'
 import contactImg from './images/contact/contactImg.png'
+import data_tools_platform from './images/Project_data-tools-platform.png'
+import reporting_tools_platform from './images/Project_reporting-tools-platform.png'
 
 export {
   bannerImg,
@@ -25,4 +27,6 @@ export {
   testimonialTwo,
   quote,
   contactImg,
+  data_tools_platform,
+  reporting_tools_platform,
 }
