@@ -9,6 +9,7 @@ import {
   projectSix,
   data_tools_platform,
   reporting_tools_platform,
+  dashboard_tools_platform,
 } from '../../assets/index'
 import ProjectCard from './ProjectCard'
 
@@ -29,6 +30,13 @@ const Projects = () => {
       src: reporting_tools_platform,
       githubLink: 'https://github.com/kike-Pinto/reporting-tools-platform',
       webLink: 'https://reporting-tools-platform.vercel.app/',
+    },
+    {
+      title: 'DASHBOARD TOOLS PLATFORM',
+      des: 'A collection of browser-based KPI dashboard generators for analyzing Excel and CSV data with charts, metrics, and export options.',
+      src: dashboard_tools_platform,
+      githubLink: 'https://github.com/kike-Pinto/dashboard-tools-platform',
+      webLink: 'https://dashboard-tools-platform.vercel.app/',
     },
     {
       title: 'LAWFIRM',

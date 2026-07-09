@@ -1,7 +1,4 @@
 import bannerImg from './images/bannerImg.png'
-// import projectOne from './images/projects/projectOne.jpg'
-// import projectTwo from './images/projects/projectTwo.jpg'
-// import projectThree from './images/projects/projectThree.jpeg'
 import projectOne from './images/lady-justice.jpg'
 import projectTwo from './images/blog-madera-cuadrados.jpg'
 import projectThree from './images/background.jpg'
@@ -14,6 +11,7 @@ import quote from './images/testmonial/quote.png'
 import contactImg from './images/contact/contactImg.png'
 import data_tools_platform from './images/Project_data-tools-platform.png'
 import reporting_tools_platform from './images/Project_reporting-tools-platform.png'
+import dashboard_tools_platform from './images/Project_dashboard-tools-platform.png'
 
 export {
   bannerImg,
@@ -29,4 +27,5 @@ export {
   contactImg,
   data_tools_platform,
   reporting_tools_platform,
+  dashboard_tools_platform,
 }
